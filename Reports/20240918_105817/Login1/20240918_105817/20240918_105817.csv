@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Login1,Chrome 128.0.0.0,,,18-09-2024 10:58:23,18-09-2024 10:58:39,15.853s,PASSED
+,,,,,,,
+Test Cases/TestTest1/Login,Chrome 128.0.0.0,,,18-09-2024 10:58:23,18-09-2024 10:58:39,15.425s,PASSED
+"openBrowser("""")",Chrome 128.0.0.0,,,18-09-2024 10:58:24,18-09-2024 10:58:28,3.794s,PASSED
+"navigateToUrl(""https://demowebshop.tricentis.com/"")",Chrome 128.0.0.0,,,18-09-2024 10:58:28,18-09-2024 10:58:31,3.171s,PASSED
+"click(findTestObject(""Object Repository/LoginTest/Page_Demo Web Shop/a_Log in""))",Chrome 128.0.0.0,,,18-09-2024 10:58:31,18-09-2024 10:58:34,2.848s,PASSED
+"setText(findTestObject(""Object Repository/LoginTest/Page_Demo Web Shop. Login/input_Email_Email""), Username)",Chrome 128.0.0.0,,,18-09-2024 10:58:34,18-09-2024 10:58:36,2.627s,PASSED
+"setText(findTestObject(""Object Repository/LoginTest/Page_Demo Web Shop. Login/input_Password_Password""), Password)",Chrome 128.0.0.0,,,18-09-2024 10:58:36,18-09-2024 10:58:37,0.726s,PASSED
+"click(findTestObject(""Object Repository/LoginTest/Page_Demo Web Shop. Login/input_Forgot password_button-1 login-button""))",Chrome 128.0.0.0,,,18-09-2024 10:58:37,18-09-2024 10:58:38,1.288s,PASSED
+closeBrowser(),Chrome 128.0.0.0,,,18-09-2024 10:58:38,18-09-2024 10:58:39,0.440s,PASSED
